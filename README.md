@@ -11,6 +11,8 @@ pkg install nodejs
 pkg install git -y
 git clone https://github.com/JunHosting/UserbotJS.git
 cd UserbotJS
+npm install --no-bin-links
+yarn install --no-bin-links
 npm install
 npm start
 ```
